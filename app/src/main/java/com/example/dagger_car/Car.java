@@ -5,8 +5,6 @@ import android.util.Log;
 import javax.inject.Inject;
 
 public class Car {
-    private static final String TAG = "Car";
-
     private Engine engine;
     private Chair chair;
 
@@ -17,6 +15,6 @@ public class Car {
     }
 
     public void drive(){
-        Log.d(TAG, "Driving . . .");
+        System.out.println("Driving . . . ");
     }
 }
