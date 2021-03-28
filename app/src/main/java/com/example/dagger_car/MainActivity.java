@@ -1,4 +1,4 @@
-package com.example.dagger_car;
+mergepackage com.example.dagger_car;
 
 import androidx.appcompat.app.AppCompatActivity;
 
